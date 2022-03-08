@@ -1,0 +1,28 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 32.31%;
+  padding: 4px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body{
+  background-color: black;
+}
+h2{
+font-size: 34px;
+margin-bottom: 34px;
+border-bottom: 1px solid white;
+padding-bottom: 15px;
+background-color: white;
+text-align: center;
+font-family: 'Sansita Swashed', cursive;
+}
+
+
